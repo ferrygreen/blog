@@ -1,0 +1,36 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+        <head>
+                <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+                <title> 我的第一个 </title>
+        </head>
+        <body>
+                <p>这是我的第一个网页,在这里
+                        
+                                尽情学习HTML吧!
+                       吧!
+                </p>
+				<h1>这是个文件</h1>
+
+<h2>我就是试试</h2>
+
+<h3>感觉还不错</h3>
+
+<ol><li>安装客户端</li><li>打开一个新文档</li><li>编辑完成本文件
+&gt; 是啊，天地山水带着盛夏的热情和秋天的 &gt;色彩，让热烈的心思渐渐褪色</li></ol>
+
+<blockquote><p>一年的季节把最后的回眸，交给了阳光 &gt;交给那些纵横着分秒枝头上的赤裸情怀</p><p>冬野，用生命的律动蛰伏，捧出了 &gt;秋天的最后那份答卷，恩赐给憨厚的土地</p></blockquote>
+
+<p> <em>强调本内容</em><br/><a href="http://www.baidu.com">这还是一个连接</a></p>
+
+<ul><li>第一行 <ul><li>第一列 生命的律动
+<em>肾功能施蒂利克哈哈那个好</em></li><li>第二列 </li></ul></li><li>第二行</li><li>第三行
+<img alt="" src="http://upload-images.jianshu.io/upload_images/259-0ad0d0bfc1c608b6.jpg?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240"/></li></ul>
+
+<p>| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |</p>
+        </body>
+</html>
