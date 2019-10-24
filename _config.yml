@@ -89,5 +89,5 @@ deploy:
     type: git
     repo: 
        github: git@github.com:ferrygreen/blog.git,gh-pages
-       gitlab: git@gitlab.com:ferrygreen/ferrygreen.gitlab.io.git,gl-pages
+       gitlab: git@gitlab.com:ferrygreen/blog.git,gl-pages
 

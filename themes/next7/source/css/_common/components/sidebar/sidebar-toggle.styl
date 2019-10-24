@@ -1,7 +1,4 @@
 .sidebar-toggle {
-  &:hover .sidebar-toggle-line {
-    background: $sidebar-highlight;
-  }
   position: fixed;
   right: $b2t-position-right;
   bottom: 45px;
@@ -14,7 +11,9 @@
   cursor: pointer;
 
   +tablet-mobile() {
-    hexo-config('sidebar.onmobile') ? fixbutton() : hide();
+    opacity: $b2t-opacity-hover;
+    right: $b2t-position-right-mobile;
+    display: none if not hexo-config('sidebar.onmobile');
   }
 }
 
@@ -26,6 +25,12 @@
   width: 100%;
   background: white;
   margin-top: 3px;
+  transition: all 0.4s;
+  &:first-child {
+    margin-top: 0;
+  }
+}
 
-  &:first-child { margin-top: 0; }
+.sidebar-toggle:hover .sidebar-toggle-line {
+  background: $sidebar-highlight;
 }
