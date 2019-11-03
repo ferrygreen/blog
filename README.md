@@ -24,6 +24,8 @@
   $ npm install --save hexo-filter-sequence #用于生成序列图
   $ npm install hexo-generator-searchdb --save #用于生成站内搜索
   $ npm install hexo-generator-feed --save #用于生成RSS
+  $ npm install --save hexo-helper-live2d #向你的Hexo里放上一只萌萌哒二次元看板娘!
+  $ npm install live2d-widget-model-shizuku  #安装使用的live2d模型
   ```  
   4. 运行hexo即可：  
   ```Bash
