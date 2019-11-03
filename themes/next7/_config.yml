@@ -151,13 +151,14 @@ baidu_push: false
 # External url should start with http:// or https://
 menu:
   home: / || home
-  about: /about/ || user
   tags: /tags/ || tags
   #categories: /categories/ || th
   archives: /archives/ || archive
   #schedule: /schedule/ || calendar
   #sitemap: /sitemap.xml || sitemap
   #commonweal: /404/ || heartbeat
+
+  about: /about/ || user
 
 # Enable / Disable menu icons / item badges.
 menu_settings:
@@ -1158,7 +1159,7 @@ vendors:
     tagMode: false
     log: false
     model:
-      use: live2d-widget-model-shizuku #????
+      use: live2d-widget-model-shizuku
       scale: 1
       hHeadPos: 0.5
       vHeadPos: 0.618
@@ -1166,11 +1167,11 @@ vendors:
       superSample: 2
       width: 150
       height: 300
-      position: left # ????
+      position: left
       hOffset: 0
-      vOffset: -20 # ?????
+      vOffset: -20
     mobile:
-      show: false # ?????????
+      show: false
       scale: 0.5
     react:
       opacityDefault: 0.7
